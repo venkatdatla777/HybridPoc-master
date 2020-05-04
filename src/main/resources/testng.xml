@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="FREE CRM Application Test Automation Test Suite">
+
+	<listeners>
+		<!--<listener class-name="com.qa.ExtentReportListener.ExtentReporterNG" />-->
+		<listener class-name="com.qa.ExtentReportListener.TestListener"/>
+		<listener class-name="com.qa.util.AnnotationTransformer"/>
+	</listeners>
+
+	<!--<listeners>-->
+        <!--<listener class-name="com.qa.util.RetryListenerClass"/>-->
+	<!--</listeners>-->
+
+	<!--<test name="Associate_EmailEdit">-->
+   <!--<parameter name="browser" value="chrome" />-->
+		<!--<classes>-->
+			<!--<class name="com.qa.testcases.Associate_EmailEdit"></class>-->
+        <!--</classes>-->
+		<!--</test>-->
+    <!--<test name="ScheduleAppointmentsUseCase">-->
+        <!--<parameter name="browser" value="chrome" />-->
+        <!--<classes>-->
+            <!--<class name="com.qa.testcases.ScheduleAppointmentsUseCase"></class>-->
+        <!--</classes>-->
+    <!--</test>-->
+    <!--<test name="AllPortalSceario">-->
+        <!--<parameter name="browser" value="chrome" />-->
+        <!--<classes>-->
+            <!--<class name="com.qa.testcases.AllPoratalDemoScenario"></class>-->
+        <!--</classes>-->
+    <!--</test>-->
+
+
+
+
+
+
+
+
+<!--    <test name="Email_Document_Chrome Test">
+        <parameter name="browser" value="chrome" />
+        <classes>
+            <class name="com.qa.testcases.Email_Document"></class>
+        </classes>
+    </test>
+    <test name="Email_Document_Firefox Test">
+        <parameter name="browser" value="firefox" />
+        <classes>
+            <class name="com.qa.testcases.Email_Document"></class>
+        </classes>
+    </test>
+    <test name="Email_Document_IE Test">
+        <parameter name="browser" value="ie" />
+        <classes>
+            <class name="com.qa.testcases.Email_Document"></class>
+        </classes>
+    </test>-->
+
+
+    <test name="Create_Publish_Strategy_Chrome Test">
+        <parameter name="browser" value="chrome" />
+        <classes>
+            <class name="com.qa.testcases.Create_Publish_Strategy"></class>
+        </classes>
+    </test>
+    <test name="Create_Publish_Strategy_FireFox Test">
+        <parameter name="browser" value="firefox" />
+        <classes>
+            <class name="com.qa.testcases.Create_Publish_Strategy"></class>
+        </classes>
+    </test>
+   <!-- <test name="Create_Publish_Strategy_IE Test">
+        <parameter name="browser" value="ie" />
+        <classes>
+            <class name="com.qa.testcases.Create_Publish_Strategy"></class>
+        </classes>
+    </test>-->
+
+
+
+
+
+
+
+
+
+
+    <!--<test name="User_VerifyLastFourDigits">-->
+        <!--<parameter name="browser" value="chrome" />-->
+        <!--<classes>-->
+            <!--<class name="com.qa.testcases.User_VerifyLastFourDigits"></class>-->
+        <!--</classes>-->
+    <!--</test>-->
+    <!--<test name="AgentLoginLogout">-->
+        <!--<parameter name="browser" value="chrome" />-->
+        <!--<classes>-->
+            <!--<class name="com.qa.testcases.AgentLoginLogout"></class>-->
+        <!--</classes>-->
+    <!--</test>-->
+    <!--<test name="Appoinment_Firefox">-->
+	<!--<parameter name="browser" value="firefox"/>-->
+		<!--<classes>-->
+            <!--<class name="com.qa.testcases.Associate_EmailEdit"></class>-->
+        <!--</classes>-->
+	<!--</test>-->
+	<!--<test name="Appoinment_ie">-->
+	<!--<parameter name="browser" value="ie" />-->
+		<!--<classes>-->
+            <!--<class name="com.qa.testcases.Associate_EmailEdit"></class>-->
+            <!--<class name="com.qa.testcases.ScheduleAppointmentsUseCase"></class>-->
+		<!--</classes>-->
+	<!--</test> -->
+	<!--<test name="Appoinment_safari">-->
+	<!--<parameter name="browser" value="safari" />-->
+		<!--<classes>-->
+            <!--<class name="com.qa.testcases.Associate_EmailEdit"></class>-->
+            <!--<class name="com.qa.testcases.ScheduleAppointmentsUseCase"></class>-->
+		<!--</classes>-->
+	<!--</test>-->
+</suite>
