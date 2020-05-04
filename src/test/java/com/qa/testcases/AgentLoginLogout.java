@@ -28,6 +28,7 @@ public class AgentLoginLogout extends TestBase {
 	{
 
 		try {
+			System.out.println("pavan");
 			commonActivities_Agent.openAdminPortal("https://tacqa.credagility.com/agent/security/login");
 			commonActivities_Agent.loginToAdminPortal();
 			commonActivities_Agent.logoutFromAdminPortal();
